@@ -1,18 +1,17 @@
 /* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
-  "extends": "./tsconfig.json",
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "outDir": "./out-tsc/spec",
+    "outDir": "./out-tsc/app",
     "types": [
-      "jasmine"
+
     ]
   },
   "files": [
-    "apps/web/src/test.ts",
-    "apps/web/src/polyfills.ts"
+    "src/main.ts",
+    "src/polyfills.ts"
   ],
   "include": [
-    "apps/web/src/**/*.spec.ts",
     "apps/web/src/**/*.d.ts"
   ]
 }
